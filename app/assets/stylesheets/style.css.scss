@@ -1,0 +1,105 @@
+@import url(http://fonts.googleapis.com/css?family=Fira+Sans:300,400);
+@import url(http://fonts.googleapis.com/css?family=Oswald:400,700);
+
+// --------------------------------------------------------------
+// BOOTSTRAP CHANGES
+// --------------------------------------------------------------
+
+$navbar-default-bg:#222;
+$navbar-border-radius:0px;
+$navbar-default-border:none;
+
+
+// "bootstrap-sprockets" must be imported before "bootstrap" and "bootstrap/variables"
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+html {text-rendering:optimizeLegibility;}
+
+body {
+	font-family: 'Fira Sans', sans-serif;
+	font-weight: 300;
+}
+
+/* FOOTER */
+
+.bg-footer {background:#333333;}
+
+.footer {min-height:85px; padding:25px; font-size:14px; text-align: center}
+
+ul.inset {text-shadow: 1px #666666;}
+
+.footer ul {text-align: center; margin-left: 37%;}
+
+.footer ul li {float: left; list-style: none}
+
+.footer ul li a {text-decoration: none; margin-left: 15px; color:#fff;}
+
+.footer span {color:#D29A4C;}
+
+#paragraph-accueil {margin-top: 50px; margin-right: 100px;}
+
+/* NAVBAR */
+
+ul.navbar-right li a {font-size: 18px !important; color: #D29A4C !important;}
+
+a.navbar-brand {font-size: 22px !important; color: #D29A4C !important; font-family: 'Oswald', sans-serif;}
+
+/* ACCUEIL */
+
+#accueil .col-md-6 {max-width: 600px; margin-right: 50px; background:rgba(0,0,0,0.2); margin-top: 50px; padding: 10px 15px; box-shadow:5px 5px 5px rgba(0,0,0,0.3);} 
+
+h1#title-accueil {margin-top: 50px; font-size: 28px; color: #D29A4C; font-family: 'Oswald', sans-serif; font-variant:small-caps;}
+
+#accueil {
+	background:url("accueil.JPG") no-repeat center center;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+  	height:750px;
+  	margin-top: -30px;
+}
+
+/* PROFIL */
+
+#profil {padding-top: 150px;
+	background:url("profil.JPG") no-repeat center center;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+  	height:900px;
+  	margin-top: -20px;}
+
+.text-profil {margin-left:100px; padding:15px 15px; background:rgba(0,0,0,0.7);  box-shadow:5px 5px 5px rgba(0,0,0,0.6); width:250px;}
+
+.text-profil p {font-size: 20px; color: #686868;}
+
+.text-profil a {color:#fff;} 
+
+.text-profil strong {margin-right: 10px; font-family: 'Oswald', sans-serif; color:#D29A4C;}
+
+#paragraph-accueil {font-size: 18px; color: #686868; font-weight: 300}
+
+/* PALMARES */
+
+.box-palmares {border: 1px solid #000; width:500px; padding:10px 10px;}
+
+.box-palmares-bottom {border-top:1px solid #000;}
+
+h2.name-club {display: inline-block; margin-left: 35px;}
+
+#contact .col-md-6 {margin-left:50px; margin-bottom:75px}
+
+#contact .col-md-4 {padding:150px 250px}
+
+#title-contact {margin-bottom:25px; font-variant: small-caps}
+
+.box-palmares {margin-bottom: 25px; margin-left:300px}
+
+/*Experience */
+
+#experience {
+  text-align: center;
+}
